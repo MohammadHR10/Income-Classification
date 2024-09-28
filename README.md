@@ -50,7 +50,7 @@ Overall, handling outliers, balancing the dataset with SMOTE, and carefully sele
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/imbalanced-data-classification.git
+   git clone https://github.com/MohammadHR10/Income-Classification.git
    ```
 
 2. **Install dependencies**:
@@ -60,9 +60,9 @@ Overall, handling outliers, balancing the dataset with SMOTE, and carefully sele
    ```
 
 3. **Run the Jupyter Notebook**:
-   You can open and execute the notebook (`classification.ipynb`) to replicate the analysis:
+   You can open and execute the notebook (`Income Classification.ipynb`) to replicate the analysis:
    ```bash
-   jupyter notebook classification.ipynb
+   jupyter notebook Income Income Classification.ipynb
    ```
 
 4. **Explore the Results**:
@@ -83,11 +83,5 @@ The project uses the following key Python libraries:
 - **Hyperparameter Tuning**: Applying techniques like GridSearchCV to further fine-tune the models.
 - **Additional Classifiers**: Exploring more complex models like Random Forests or Support Vector Machines (SVM).
 - **Ensemble Methods**: Implementing ensemble learning techniques to further improve classification performance.
-  
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Feel free to customize and modify this README based on your specific project structure and goals!
