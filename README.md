@@ -30,7 +30,7 @@ Three classification models were used to evaluate performance:
 - **Logistic Regression**: Displayed stable performance, with an accuracy of around 82.43% after outlier handling and class balancing.
 
 ### 5. Model Performance After SMOTE
-- **Decision Tree**: Accuracy dropped to 79.05%, but recall for the minority class improved, showing better classification for the minority class.
+- **Decision Tree**: Accuracy dropped from 84.92% to 79.05% when tested on the SMOTE resampled dataset, but recall for the minority class improved, showing better classification for the minority class.
 - **Naive Bayes**: Accuracy is 82.25%, indicating better overall performance after balancing the dataset.
 - **Logistic Regression**: Stable accuracy of 82.43% after applying outlier handling and SMOTE.
 
