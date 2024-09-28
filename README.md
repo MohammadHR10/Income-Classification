@@ -1,7 +1,3 @@
-Here's a template for your GitHub README based on your project, designed to highlight insights and key points:
-
----
-
 # Classification of Imbalanced Data Using SMOTE, Outlier Handling, and Feature Selection
 
 This project focuses on solving the problem of **imbalanced datasets** by using **Synthetic Minority Over-sampling Technique (SMOTE)** to balance the classes, along with outlier handling and feature selection techniques to improve model performance. The project explores multiple classifiers, including Decision Tree, Naive Bayes, and Logistic Regression, to evaluate the effect of these techniques on classification metrics.
