@@ -13,7 +13,9 @@ The key components of this project are:
 ## Key Techniques and Methods
 
 ### 1. Outlier Handling
-Boxplots were generated to detect outliers in various columns, including `fnlwgt`, `capital-gain`, `capital-loss`, and `hours-per-week`. Outliers were then managed through robust scaling techniques to ensure that they do not negatively affect the model.
+Boxplots were generated to detect outliers in various columns, including `fnlwgt`, `capital-gain`, `capital-loss`, and `hours-per-week`. Outliers were then managed through robust scaling techniques to ensure that they do not negatively affect the model. 
+
+Robust Scaling is used in this project because it is more resilient to outliers compared to other scaling methods like MinMax or Standard Scaling. Unlike these methods, which can be significantly affected by extreme values, Robust Scaling centers the data around the median and scales it based on the interquartile range (IQR). This ensures that outliers have a minimal impact on the data distribution, making the model more stable and accurate when handling datasets with skewed data.
 
 ### 2. SMOTE (Synthetic Minority Over-sampling Technique)
 Given the imbalanced nature of the dataset, SMOTE was applied to oversample the minority class. This technique helped to balance the class distribution, leading to better performance for models, especially in predicting the minority class.
